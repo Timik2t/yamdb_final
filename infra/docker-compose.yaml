@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb/
+    image: timik2t/yamdb_final:v1.1
     restart: always
     volumes:
       - static_value:/app/static/
@@ -36,6 +36,5 @@ services:
       - web
 
 volumes:
-  # Новые тома 
   static_value:
   media_value:

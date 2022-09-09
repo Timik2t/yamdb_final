@@ -1,6 +1,10 @@
 
 # Проект YaMDb
 api yamdb
+___
+
+https://github.com/timik2t/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+___
 
 ## Разработчики:
 - [Куллина Наталья](https://github.com/Kullina-Nataly)
