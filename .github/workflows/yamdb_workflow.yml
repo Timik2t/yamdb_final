@@ -40,7 +40,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
         with:
-          context: .api_yamdb/
+          context: ./api_yamdb
           push: true
           tags: timik2t/yamdb_final:v1.1
   deploy:
