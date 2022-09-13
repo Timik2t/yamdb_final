@@ -4,7 +4,7 @@ api yamdb
 
 ![example workflow](https://github.com/timik2t/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-## Разработчики:
+## Разработчики API:
 - [Куллина Наталья](https://github.com/Kullina-Nataly)
 - [Исхаков Тимур](https://github.com/Timik2t)
 - [Сергеев Андрей](https://github.com/andrey-praktikum-98)
@@ -45,7 +45,7 @@ ___
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/Timik2t/api_yamdb.git
+git clone https://github.com/Timik2t/yamdb_final.git
 ```
 
  В директории infra создайте файл .env с переменными окружения для работы с базой данных:
@@ -95,7 +95,8 @@ TELEGRAM_TO # ID телеграм-аккаунта
 TELEGRAM_TOKEN # Токен бота
 ```
 
-### После каждого обновления репозитория (`git push`) будет происходить:
+### Github Actions:
+После обновления репозитория автоматически будут выполнены действия:
 1. Проверка кода на соответствие стандарту PEP8 (с помощью пакета flake8) и запуск pytest из репозитория yamdb_final
 2. Сборка и доставка докер-образов на Docker Hub.
 3. Автоматический деплой.
@@ -105,6 +106,7 @@ ___
 ### Полная документация работы с api:
 - [документация](api_yamdb/static/redoc.yaml)
 - [локальный сервер](http://127.0.0.1:8000/)
+
 ### Работающий сервер (IP изменить на свой)
 - [сервер](http://84.201.160.48/api/v1/)
 - [админ панель](http://84.201.160.48/admin)
