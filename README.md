@@ -1,6 +1,5 @@
 
-# Проект YaMDb
-api yamdb
+# Проект YaMDb (API)
 
 ![example workflow](https://github.com/timik2t/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
